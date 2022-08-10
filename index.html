@@ -7,18 +7,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js" defer></script>
-    <title>Project 1 Trivia Game</title>
+    <title>Rick's Roulette</title>
 </head>
 <body>
     <h1 id="title">𐂷 Trivia Tree 𐂷</h1>
-    <h2 id="instructions">Each question will have a 30 second timer.</h2>
-    <h2 id="instructions">Answer correctly before the timer runs out to earn points!</h2>
-    <h1 class="question"></h1>
-    <button id="start">Start</button>
-    <ul>
-        <li class="AnswerA"></li>
-        <li class="AnswerB"></li>
-        <li class="AnswerC"></li>
-    </ul>
+    <h2 id="instructions">You will have 3 minutes to complete this section.</h2>
+    <h2 id="instructions">Each correct answer chosen before the time limit will earn 20 points.</h2>
+    <h2 id="instructions">Click start to begin!</h2>
+    <div class="button-wrapper">
+    <button id="startButton">Start</button>
+    </div>
+    <!-- <div class="container">
+        <div id="timer">00:00</div>
+        <button onclick="startTimer()">Start</button>
+      </div> -->
+    <div class="questions">
+        <p>1. Which of the following people is the executive producer of the TV show “Power”?</p>
+        <form class="options">
+            <input class="option" type="radio" name="question1" value=4>Curtis '50 Cent' Jackson<br>
+            <input class="option" type="radio" name="question1" value=3>Floyd 'Money' Mayweather<br>
+            <input class="option" type="radio" name="question1" value=2>J.R.R Tolkien<br>
+            <input class="option" type="radio" name="question1" value=1>Dr. Dre</br>
+        </form>
+    </div>
+    <div class="questions">
+        <p>2. Bitcoin, Doge, Chainlink, and Ethereum are all popular forms of what?</p>
+        <form class="options">
+            <input class="option" type="radio" name="question2" value=4>Cryptocurrency<br>
+            <input class="option" type="radio" name="question2" value=3>Twitter Memes<br>
+            <input class="option" type="radio" name="question2" value=2>Production Studios<br>
+            <input class="option" type="radio" name="question2" value=1>Cannabis Strains</br>
+        </form>
+    </div>
+    <div class="questions">
+        <p>3. Finish the following sentence: “Quarter brick, half a brick, whole brick, ____”</p>
+        <form class="options">
+            <input class="option" type="radio" name="question3" value=3>House!<br>
+            <input class="option" type="radio" name="question3" value=2>What?<br>
+            <input class="option" type="radio" name="question3" value=4>Aye!<br>
+            <input class="option" type="radio" name="question3" value=1>Wood!</br>
+        </form>
+    </div>
+    <div class="questions">
+        <p>4. According to SpongeBob Squarepants, when is the best time to wear a striped sweater?</p>
+        <form class="options">
+            <input class="option" type="radio" name="question4" value=1>Never...<br>
+            <input class="option" type="radio" name="question4" value=3>Saturdays<br>
+            <input class="option" type="radio" name="question4" value=2>Cold winter evenings<br>
+            <input class="option" type="radio" name="question4" value=4>All the time!</br>
+        </form>
+    </div>
+    <div class="questions">
+        <p>5. Complete this popular proverb: "a bird in the hand is worth two in the ____"</p>
+        <form class="options">
+            <input class="option" type="radio" name="question5" value=3>Oven<br>
+            <input class="option" type="radio" name="question5" value=4>Bush<br>
+            <input class="option" type="radio" name="question5" value=2>Freezer<br>
+            <input class="option" type="radio" name="question5" value=1>Cage</br>
+        </form>
+    </div>
+    <!-- <ul> -->
+        <!-- <li class="AnswerA"></li> -->
+        <!-- <li class="AnswerB"></li> -->
+        <!-- <li class="AnswerC"></li> -->
+        <!-- <li class="AnswerD"></li> -->
+    <!-- </ul> -->
 </body>
 </html>

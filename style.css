@@ -16,3 +16,24 @@ body {
     color: darkred;
    
 }
+.button-wrapper {
+    text-align: center;
+}
+.question {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: palegoldenrod;
+  }
+  #timer {
+    margin-bottom: 0px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: red;
+    }
+  
