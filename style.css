@@ -31,6 +31,9 @@ body {
     color: lightcoral
 }
 
+.questions {
+    font-size: 20px;
+}
 /* button position */
 .button-wrapper {
     text-align: center;
