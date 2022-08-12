@@ -12,12 +12,20 @@ body {
     color: blueviolet;
     text-align: center;
 }
+
+#greeting {
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
 #start {
     color: darkred;
    
 }
 .button-wrapper {
     text-align: center;
+    margin-top: 20px;
 }
 .question {
     text-align: center;
@@ -36,4 +44,19 @@ body {
     font-weight: bold;
     color: red;
     }
-  
+
+    .btn {
+        font-size: 20px;
+        padding: 5px 30px;
+        width: 200px;
+        text-align: center;
+        border: 1px solid goldenrod;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: darkred;
+        background-color: rgb(238, 222, 46);
+    }
+  .btn:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 14px 0 goldenrod;
+  }
