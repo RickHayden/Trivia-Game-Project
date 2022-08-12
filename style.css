@@ -25,6 +25,12 @@ body {
     color: blueviolet;
 }
 
+#midGreeting {
+    font-size: 30px;
+    text-align: center;
+    color: lightcoral
+}
+
 /* button position */
 .button-wrapper {
     text-align: center;
