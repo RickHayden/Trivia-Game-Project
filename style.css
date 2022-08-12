@@ -60,3 +60,15 @@ body {
     cursor: pointer;
     box-shadow: 0 4px 14px 0 goldenrod;
   }
+
+  .worldTree {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 100px 20px 35px;
+  }
+
+  .endGame {
+    font-size: 40px;
+    color: blueviolet;
+    text-align: center;
+  }
