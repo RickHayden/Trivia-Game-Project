@@ -1,50 +1,37 @@
+/* game title */
 #title {
     text-align: center;
     color: mediumblue;
     font-size: 45px;
 }
+
+/* background */
 body {
     background-color: palegoldenrod;
  
 }
+
+/* instructions on start page */
 #instructions {
     font-size: large;
     color: blueviolet;
     text-align: center;
 }
 
+/* header text on each page */
 #greeting {
     font-size: 30px;
     text-align: center;
     color: blueviolet;
 }
 
-#start {
-    color: darkred;
-   
-}
+/* button position */
 .button-wrapper {
     text-align: center;
     margin-top: 20px;
 }
-.question {
-    text-align: center;
-}
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: palegoldenrod;
-  }
-  #timer {
-    margin-bottom: 0px;
-    font-size: 3rem;
-    font-weight: bold;
-    color: red;
-    }
-
+/* start "button" costume */
     .btn {
         font-size: 20px;
         padding: 5px 30px;
@@ -61,6 +48,12 @@ body {
     box-shadow: 0 4px 14px 0 goldenrod;
   }
 
+  .btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+  }
+
+/* end game page */
   .worldTree {
     max-width: 100%;
     height: auto;
